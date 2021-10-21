@@ -36,3 +36,6 @@ git log
  
 git pull origin main
 
+git branch f1
+git branch -a
+git checkout f1
