@@ -36,3 +36,40 @@ git log
  
 git pull origin main
 
+git branch f1
+git branch -a
+git checkout f1
+git commit -m "branch f1"
+git checkout main
+git log
+
+Вернеть всё как было в ветке:
+git checkout main.py
+
+домашка:
+git checkout main
+git pull origin main
+git branch hw
+git checkout hw
+git add --all
+git commit -m "task 1"
+git push -u origin hw
+
+комментарии:
+fix comments
+git add --all
+git commit -m "task 1"
+git push -u origin hw
+
+
+ВОпросы конфликтов
+
+
+______________________________
+
+pip install flake8
+flake8 --version
+flake8 CW_8.py
+pip install flake8-builtins # для встроенных слов
+flake8 CW_8.py
+
