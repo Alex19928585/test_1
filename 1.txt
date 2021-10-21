@@ -8,3 +8,31 @@ ls -a
 Инициализация git (добавляется скрытая папка .git)
 git init
 
+git status
+
+git add CW_8.py
+
+git status
+
+git commit -m "message_1"
+
+
+https://github.com/new
+git branch -M main
+git remote add origin https://github.com/Alex19928585/test_1.git
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git add --all
+git status
+git commit -m "add_gitignore"
+git push -u origin main
+
+git clone https://github.com/Alex19928585/test_1.git
+
+git log
+
+ 
+git pull origin main
+
